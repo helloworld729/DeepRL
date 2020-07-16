@@ -9,7 +9,7 @@ from ..component import *
 from .BaseAgent import *
 
 
-class A2CAgent(BaseAgent):
+class A2CAgent(BaseAgent):  #
     def __init__(self, config):
         BaseAgent.__init__(self, config)
         self.config = config
